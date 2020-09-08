@@ -22,7 +22,7 @@ const debug = require("debug")(
 const app = express();
 
 // require database configuration
-require("./configs/db.config");
+//require("./configs/db.config");
 
 // Middleware Setup
 app.use(logger("dev"));
