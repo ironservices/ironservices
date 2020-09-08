@@ -8,7 +8,7 @@ const cookieParser = require("cookie-parser");
 const logger = require("morgan");
 const mongoose = require("mongoose");
 const cors = require("cors");
-const bcrypt = require("bcrypt");
+//const bcrypt = require("bcrypt");
 const flash = require("connect-flash");
 
 const indexRouter = require("./routes/index");
